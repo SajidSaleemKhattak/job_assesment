@@ -1,0 +1,82 @@
+[
+  {
+    "id": "job-1",
+    "title": "Frontend Developer",
+    "company": "Tech Solutions BV",
+    "location": "Amsterdam, Netherlands",
+    "salary": "€45,000 - €60,000",
+    "description": "We are looking for a skilled Frontend Developer to join our team. The ideal candidate should have experience with React, JavaScript, and modern web development practices.",
+    "requirements": [
+      "3+ years of experience with JavaScript",
+      "Strong knowledge of React",
+      "Experience with HTML5 and CSS3",
+      "Familiarity with version control systems"
+    ],
+    "applyLink": "https://www.adecco.nl/en-us/job-details/frontend-developer/123456",
+    "scrapedDate": "2023-09-26T12:00:00.000Z"
+  },
+  {
+    "id": "job-2",
+    "title": "Backend Developer",
+    "company": "Data Systems NL",
+    "location": "Rotterdam, Netherlands",
+    "salary": "€50,000 - €70,000",
+    "description": "Backend Developer position for an experienced professional with Node.js and database expertise. You will be responsible for server-side application logic and integration of front-end components.",
+    "requirements": [
+      "Experience with Node.js and Express",
+      "Knowledge of database systems (SQL and NoSQL)",
+      "Understanding of server-side templating languages",
+      "API development experience"
+    ],
+    "applyLink": "https://www.adecco.nl/en-us/job-details/backend-developer/234567",
+    "scrapedDate": "2023-09-26T12:05:00.000Z"
+  },
+  {
+    "id": "job-3",
+    "title": "Data Analyst",
+    "company": "Analytics Pro",
+    "location": "Utrecht, Netherlands",
+    "salary": "€40,000 - €55,000",
+    "description": "We're seeking a Data Analyst to interpret data and analyze results using statistical techniques. You'll acquire data from primary or secondary sources and maintain databases.",
+    "requirements": [
+      "Proficiency in Python or R",
+      "Experience with data visualization tools",
+      "Knowledge of SQL",
+      "Statistical analysis skills"
+    ],
+    "applyLink": "https://www.adecco.nl/en-us/job-details/data-analyst/345678",
+    "scrapedDate": "2023-09-26T12:10:00.000Z"
+  },
+  {
+    "id": "job-4",
+    "title": "DevOps Engineer",
+    "company": "Cloud Systems",
+    "location": "Eindhoven, Netherlands",
+    "salary": "€55,000 - €75,000",
+    "description": "DevOps Engineer needed to build and maintain CI/CD pipelines, automate deployments, and manage cloud infrastructure.",
+    "requirements": [
+      "Experience with AWS, Azure, or GCP",
+      "Knowledge of Docker and Kubernetes",
+      "Familiarity with CI/CD tools",
+      "Scripting skills (Python, Bash)"
+    ],
+    "applyLink": "https://www.adecco.nl/en-us/job-details/devops-engineer/456789",
+    "scrapedDate": "2023-09-26T12:15:00.000Z"
+  },
+  {
+    "id": "job-5",
+    "title": "UX/UI Designer",
+    "company": "Creative Digital",
+    "location": "Amsterdam, Netherlands",
+    "salary": "€45,000 - €65,000",
+    "description": "UX/UI Designer position for a creative professional to design user interfaces for web and mobile applications. You'll work closely with product managers and developers.",
+    "requirements": [
+      "Portfolio demonstrating UI/UX projects",
+      "Experience with design tools (Figma, Sketch)",
+      "Understanding of user-centered design principles",
+      "Knowledge of HTML/CSS is a plus"
+    ],
+    "applyLink": "https://www.adecco.nl/en-us/job-details/ux-ui-designer/567890",
+    "scrapedDate": "2023-09-26T12:20:00.000Z"
+  }
+]

@@ -1,0 +1,197 @@
+2025-09-26T11:46:04.373Z [info]: Server running on port 3000
+2025-09-26T11:48:31.591Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T11:48:31.592Z [info]: No cached jobs found, initiating scraping
+2025-09-26T11:48:31.593Z [info]: Starting job scraping process
+2025-09-26T11:48:31.616Z [error]: Error: browserType.launch: Executable doesn't exist at C:\Users\SaJiD\AppData\Local\ms-playwright\chromium_headless_shell-1193\chrome-win\headless_shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+2025-09-26T11:48:31.620Z [error]: browserType.launch: Executable doesn't exist at C:\Users\SaJiD\AppData\Local\ms-playwright\chromium_headless_shell-1193\chrome-win\headless_shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:16:36)
+    at C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:44
+2025-09-26T12:06:31.315Z [info]: Server running on port 3000
+2025-09-26T12:06:39.047Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T12:06:39.050Z [info]: No cached jobs found, initiating scraping
+2025-09-26T12:06:39.052Z [info]: Starting job scraping process
+2025-09-26T12:06:57.564Z [info]: Page loaded successfully
+2025-09-26T12:07:07.573Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:08.470Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:08.471Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:07:36.779Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T12:07:36.781Z [info]: No cached jobs found, initiating scraping
+2025-09-26T12:07:36.783Z [info]: Starting job scraping process
+2025-09-26T12:07:48.438Z [info]: Page loaded successfully
+2025-09-26T12:07:58.463Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:58.708Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:58.709Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:08:48.515Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T12:08:48.522Z [info]: No cached jobs found, initiating scraping
+2025-09-26T12:08:48.524Z [info]: Starting job scraping process
+2025-09-26T12:09:02.677Z [info]: Page loaded successfully
+2025-09-26T12:09:12.688Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:09:13.441Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:09:13.444Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:10:32.800Z [info]: Server running on port 3000
+2025-09-26T12:14:34.615Z [info]: Server running on port 3000
+2025-09-26T12:16:35.340Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T12:16:35.342Z [info]: No cached jobs found, initiating scraping
+2025-09-26T12:16:35.343Z [info]: Starting job scraping process
+2025-09-26T12:17:00.239Z [info]: Page loaded successfully
+2025-09-26T12:17:10.275Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:17:10.510Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:17:10.512Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:18:36.121Z [info]: Server running on port 3000
+2025-09-26T16:23:58.920Z [info]: Server running on port 3000
+2025-09-26T16:24:29.672Z [error]: Error: Not Found - /favicon.ico
+2025-09-26T16:24:29.682Z [error]: Error: Not Found - /favicon.ico
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:519:28)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:417:12)
+2025-09-26T16:24:40.854Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T16:24:40.855Z [info]: No cached jobs found, initiating scraping
+2025-09-26T16:24:40.857Z [info]: Starting job scraping process
+2025-09-26T16:25:11.655Z [error]: Error scraping jobs: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+2025-09-26T16:25:11.920Z [error]: Error: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+2025-09-26T16:25:11.926Z [error]: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:20:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T16:25:20.429Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T16:25:20.430Z [info]: No cached jobs found, initiating scraping
+2025-09-26T16:25:20.431Z [info]: Starting job scraping process
+2025-09-26T16:25:47.299Z [info]: Page loaded successfully
+2025-09-26T16:25:57.305Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T16:26:01.366Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T16:26:01.369Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T16:26:17.898Z [info]: Server running on port 3000
+2025-09-26T16:27:17.786Z [warn]: No scraped jobs found, returning empty array
+2025-09-26T16:27:17.787Z [info]: No cached jobs found, initiating scraping
+2025-09-26T16:27:17.788Z [info]: Starting job scraping process
+2025-09-26T16:27:33.380Z [warn]: Real scraping failed: page.goto: Timeout 15000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+, falling back to sample data
+2025-09-26T16:27:33.387Z [info]: Jobs saved to C:\Users\SaJiD\Desktop\job assesment\data\jobs\jobs.json
+2025-09-26T16:27:33.393Z [info]: Loaded 5 sample jobs
+2025-09-26T16:27:45.242Z [info]: Starting resume parsing process
+2025-09-26T16:27:45.243Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:30:27.192Z [info]: Starting resume parsing process
+2025-09-26T16:30:27.194Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:30:30.468Z [info]: Starting job-candidate matching process
+2025-09-26T16:30:30.469Z [info]: Starting resume parsing process
+2025-09-26T16:30:30.471Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:30:30.473Z [info]: Successfully matched 2 candidates to jobs
+2025-09-26T16:44:13.490Z [info]: Server running on port 3005
+2025-09-26T16:44:24.283Z [error]: Error: Not Found - /favicon.ico
+2025-09-26T16:44:24.285Z [error]: Error: Not Found - /favicon.ico
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:519:28)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:417:12)
+2025-09-26T16:44:51.314Z [info]: Starting resume parsing process
+2025-09-26T16:44:51.342Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:45:00.208Z [info]: Starting job-candidate matching process
+2025-09-26T16:45:00.214Z [info]: Starting resume parsing process
+2025-09-26T16:45:00.216Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:45:00.218Z [info]: Successfully matched 2 candidates to jobs
+2025-09-26T16:45:08.860Z [error]: Error: Not Found - /api/applications/apply
+2025-09-26T16:45:08.862Z [error]: Error: Not Found - /api/applications/apply
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:47:12)

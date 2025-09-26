@@ -1,0 +1,140 @@
+2025-09-26T11:48:31.616Z [error]: Error: browserType.launch: Executable doesn't exist at C:\Users\SaJiD\AppData\Local\ms-playwright\chromium_headless_shell-1193\chrome-win\headless_shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+2025-09-26T11:48:31.620Z [error]: browserType.launch: Executable doesn't exist at C:\Users\SaJiD\AppData\Local\ms-playwright\chromium_headless_shell-1193\chrome-win\headless_shell.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:16:36)
+    at C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:44
+2025-09-26T12:07:07.573Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:08.470Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:08.471Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:07:58.463Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:58.708Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:07:58.709Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:09:12.688Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:09:13.441Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:09:13.444Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T12:17:10.275Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:17:10.510Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T12:17:10.512Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T16:24:29.672Z [error]: Error: Not Found - /favicon.ico
+2025-09-26T16:24:29.682Z [error]: Error: Not Found - /favicon.ico
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:519:28)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:417:12)
+2025-09-26T16:25:11.655Z [error]: Error scraping jobs: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+2025-09-26T16:25:11.920Z [error]: Error: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+2025-09-26T16:25:11.926Z [error]: page.goto: Timeout 30000ms exceeded.
+Call log:
+[2m  - navigating to "https://www.adecco.nl/vacatures", waiting until "networkidle"[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:20:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T16:25:57.305Z [error]: Error scraping jobs: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T16:26:01.366Z [error]: Error: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+2025-09-26T16:26:01.369Z [error]: page.waitForSelector: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('.vacancy-item') to be visible[22m
+
+    at ScraperService.scrapeJobs (C:\Users\SaJiD\Desktop\job assesment\src\services\ScraperService.js:24:18)
+    at async C:\Users\SaJiD\Desktop\job assesment\src\controllers\jobController.js:12:23
+2025-09-26T16:44:24.283Z [error]: Error: Not Found - /favicon.ico
+2025-09-26T16:44:24.285Z [error]: Error: Not Found - /favicon.ico
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\serve-static\index.js:121:7)
+    at SendStream.emit (node:events:519:28)
+    at SendStream.error (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:270:17)
+    at SendStream.onStatError (C:\Users\SaJiD\Desktop\job assesment\node_modules\send\index.js:417:12)
+2025-09-26T16:45:08.860Z [error]: Error: Not Found - /api/applications/apply
+2025-09-26T16:45:08.862Z [error]: Error: Not Found - /api/applications/apply
+    at notFound (C:\Users\SaJiD\Desktop\job assesment\src\utils\errorHandler.js:23:19)
+    at Layer.handle [as handle_request] (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:265:14)
+    at Function.handle (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:47:12)

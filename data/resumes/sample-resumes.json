@@ -1,0 +1,67 @@
+[
+  {
+    "id": "candidate-1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "Amsterdam, Netherlands",
+    "skills": ["JavaScript", "React", "Node.js", "HTML", "CSS", "Git", "Agile"],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Web Solutions BV",
+        "years": "2018-2021",
+        "description": "Developed responsive web applications using React and modern JavaScript"
+      },
+      {
+        "title": "Junior Developer",
+        "company": "Tech Startup",
+        "years": "2016-2018",
+        "description": "Worked on various web development projects using JavaScript and jQuery"
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computer Science",
+        "institution": "University of Amsterdam",
+        "year": "2016"
+      }
+    ],
+    "resumePath": "john_doe_resume.pdf"
+  },
+  {
+    "id": "candidate-2",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "098-765-4321",
+    "address": "Rotterdam, Netherlands",
+    "skills": ["Python", "Data Analysis", "Machine Learning", "SQL", "Tableau", "R", "Statistics"],
+    "experience": [
+      {
+        "title": "Data Analyst",
+        "company": "Data Insights NL",
+        "years": "2019-2022",
+        "description": "Performed data analysis and created visualizations for business intelligence"
+      },
+      {
+        "title": "Research Assistant",
+        "company": "Rotterdam University",
+        "years": "2017-2019",
+        "description": "Assisted with data collection and analysis for research projects"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MSc Data Science",
+        "institution": "Erasmus University",
+        "year": "2019"
+      },
+      {
+        "degree": "BSc Statistics",
+        "institution": "Utrecht University",
+        "year": "2017"
+      }
+    ],
+    "resumePath": "jane_smith_resume.pdf"
+  }
+]
