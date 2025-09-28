@@ -75,3 +75,90 @@ To add candidate resumes:
 - Playwright for web scraping and form automation
 - PDF-parse for resume parsing
 - Winston for logging
+
+## Headless CMS
+
+The app also functions as a headless CMS with JSON-based persistence and API-key-protected write operations.
+
+### Environment
+
+Copy `.env.example` to `.env` and set values:
+
+```
+PORT=3000
+TARGET_URL=https://www.adecco.nl/vacatures
+LOG_LEVEL=info
+API_KEY=change-me-strong-key
+# Optional webhook for CRUD events
+WEBHOOK_URL=
+```
+
+Include your API key via header `x-api-key: <API_KEY>` (required for POST/PUT/DELETE and imports).
+
+### CMS Endpoints
+
+- Jobs
+  - GET `/api/jobs/items` — list stored jobs
+  - GET `/api/jobs/items/:id` — get job by id
+  - POST `/api/jobs/items` — create job (auth required)
+  - PUT `/api/jobs/items/:id` — update job (auth required)
+  - DELETE `/api/jobs/items/:id` — delete job (auth required)
+  - GET `/api/jobs/export` — export all jobs
+  - POST `/api/jobs/import` — bulk import/replace jobs (auth required)
+  - Existing scrape: GET `/api/jobs`, POST `/api/jobs/scrape`
+
+- Candidates
+  - GET `/api/candidates/items` — list stored candidates
+  - GET `/api/candidates/items/:id` — get candidate by id
+  - POST `/api/candidates/items` — create candidate (auth required)
+  - PUT `/api/candidates/items/:id` — update candidate (auth required)
+  - DELETE `/api/candidates/items/:id` — delete candidate (auth required)
+  - GET `/api/candidates/export` — export all candidates
+  - POST `/api/candidates/import` — bulk import/replace candidates (auth required)
+  - Existing parse: GET `/api/candidates`, POST `/api/candidates/parse`
+
+- Applications
+  - GET `/api/applications/items` — list stored applications
+  - GET `/api/applications/items/:id` — get application by id
+  - POST `/api/applications/items` — create application (auth required)
+  - PUT `/api/applications/items/:id` — update application (auth required)
+  - DELETE `/api/applications/items/:id` — delete application (auth required)
+  - GET `/api/applications/export` — export all applications
+  - POST `/api/applications/import` — bulk import/replace applications (auth required)
+  - Matching & apply: GET `/api/applications/matches`, POST `/api/applications/apply`
+
+### Example Requests
+
+Create a candidate:
+
+```bash
+curl -X POST http://localhost:3000/api/candidates/items \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: $API_KEY" \
+  -d '{
+    "name": "Alex Doe",
+    "email": "alex@example.com",
+    "skills": ["JavaScript","React"]
+  }'
+```
+
+Bulk import jobs (replace all):
+
+```bash
+curl -X POST http://localhost:3000/api/jobs/import \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: $API_KEY" \
+  -d '[{"title":"Job A"},{"title":"Job B"}]'
+```
+
+### Webhooks
+
+If `WEBHOOK_URL` is set, the server sends a JSON POST payload on CRUD events:
+
+```
+{
+  "event": "created|updated|deleted",
+  "entity": "job|candidate|application",
+  "data": { ... },
+  "timestamp": "2025-01-01T00:00:00.000Z"
+}

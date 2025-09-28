@@ -195,3 +195,11 @@ Call log:
     at next (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:265:14)
     at Function.handle (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:175:3)
     at router (C:\Users\SaJiD\Desktop\job assesment\node_modules\express\lib\router\index.js:47:12)
+2025-09-26T16:53:59.973Z [info]: Server running on port 3005
+2025-09-26T16:55:03.932Z [info]: Starting resume parsing process
+2025-09-26T16:55:03.986Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:55:43.213Z [info]: Starting job-candidate matching process
+2025-09-26T16:55:43.217Z [info]: Starting resume parsing process
+2025-09-26T16:55:43.221Z [info]: Successfully parsed 2 resumes
+2025-09-26T16:55:43.228Z [info]: Successfully matched 2 candidates to jobs
+2025-09-27T07:25:20.105Z [info]: Server running on port 3005
